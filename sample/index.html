@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TRENDY SWAG</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark  " id="navbar1">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><span class="text-white trend1">TRENDY</span> SWAG</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="Products">Products</a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+					<li class="nav-item dropdown ">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Products
+						</a>
+						<ul class="dropdown-menu bg-dark">
+							<li><a class="dropdown-item" href="#">Shirts</a></li>
+							<li><a class="dropdown-item" href="#">Hoodies</a></li>
+							<li><a class="dropdown-item" href="#">Pants</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">All Products</a></li>
+			
+						</ul>
+					</li>
+			
+				</ul>
+				<button type="button" class="btn bg-warning-subtle text-dark rounded-pill p-2 my-lg-0 my-2" data-bs-toggle="modal"
+					data-bs-target="#exampleModal">Sign In</button>
+			</div>
+			</nav>
+	<!-- model -->
+	<form action="">
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5 text-dark " id="exampleModalLabel">Login Page</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body bg-warning-subtle">
+
+						<input type="text" class="form-control" placeholder="Enter Your Name" required><br>
+						<input type="email" class="form-control" placeholder="Email address" required><br>
+						<input type="password" class="form-control" placeholder="Password" required><br>
+						<input type="text" class="form-control" placeholder="Location" required><br>
+
+					</div>
+					<div class="modal-footer ">
+						<button type="button" class="btn btn-dark text-white" data-bs-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-dark text-white" aria-required="true">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<!-- home -->
+
+	<section id="home" style="height: 700px;">
+		<h1 class="font1 text-center fw-bold text-break">TRENDY COLLECTIONS</h1>
+		<p class="text-center pt-4">Enter If You Dare..!</p>
+		<div class="input-group m-4">
+			<input type="email" class="form-control" placeholder="Email address" required>
+			<button class="btn signin bg-warning-subtle text-dark">Get Started</button>
+		</div>
+	</section>
+
+	<!-- About us -->
+
+	<section id="about" style="height: 700px;">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col position-relative">
+					<h1 class="text-white text-center">ABOUT US</h1>
+					<p class="text-white fs-4 text-center">At TRENDY SWAG,we believe every outfit tells a story. From
+						elegant
+						ethnic wear to trendy western styles, our curated collection is designed to make you feel
+						confident,
+						beautiful, and uniquely you. With a passion for fashion and a commitment to quality, we bring
+						you timeless
+						pieces that celebrate every occasion.
+						<!-- </p><img src="img02.jpg" class="position-absolute bottom-0  start-0" style="width:40%; height: 50%;"> -->
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- carousel -->
+
+	<section id="slide" >
+		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="2000">
+					<img src="img03.jpg" class="d-block w-100">
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<img src="img02.jpg" class="d-block w-100 ">
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<img src="img04.jpg" class="d-block w-100">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+
+	<!--products-->
+
+	<section id="products">
+		<div class="container-fluid me-5">
+			<h2 class="text-center ">Products</h2>
+			<h4 class=""><i>SHIRTS</i></h4>
+			<div class="row  mb-5  row-cols-lg-4 row-cols-md-2 row-cols-sm-2  row-cols-1">
+				<div class="col">
+					<div class="card">
+						<img src="imgs01.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Rust&cream printed</h5>
+							<h5>Rs:799.00</h5>
+							<p class="text-decoration-line-through">Rs:1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgs02.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Palm tree printed</h5>
+							<h5>Rs:799.00</h5>
+							<p class="text-decoration-line-through">Rs:1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgs03.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">G&b abstract printed</h5>
+							<h5>Rs:799.00</h5>
+							<p class="text-decoration-line-through">Rs:1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+					<div class="col">
+					<div class="card">
+						<img src="imgs04.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">chocolate brown </h5>
+							<h5>Rs:799.00</h5>
+							<p class="text-decoration-line-through">Rs:1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>             
+			<div class="row mt-5 g-5 row-cols-lg-4 row-cols-md-2 row-cols-1">
+				<div class="col">
+					<div class="card">
+						<img src="imgs05.png" class="card-img-top">
+						<div class="card-body text-center mb-3" >
+							<h5 class="card-title"> Casual Plain Dark Brown</h5>
+							<h5>Rs:699.00</h5>
+							<p class="text-decoration-line-through">Rs:999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgs06.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title"> Formal Plain Black</h5>
+							<h5>Rs:699.00</h5>
+							<p class="text-decoration-line-through">Rs:999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgs07.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Beige White Stripes</h5>
+							<h5>Rs:699.00</h5>
+							<p class="text-decoration-line-through">Rs:999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgs08.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title"> Casual Plain Light Grey</h5>
+							<h5>Rs:699.00</h5>
+							<p class="text-decoration-line-through">Rs:999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Hoddies -->
+			<h4 class="pt-5"><i>HOODIES</i></h4>
+			<div class="row mt-0 g-5 row-cols-lg-4 row-cols-md-2 row-cols-1">
+				<div class="col">
+					<div class="card">
+						<img src="imgh01.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">black&white graphic</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgh02.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Beige with black printed</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgh03.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Black&purple sleeve printed</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgh04.png" class="card-img-top" style="height: 260px;">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Black with graphic printed</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-0 g-5 row-cols-lg-4 row-cols-md-2 row-cols-1">
+				<div class="col">
+					<div class="card">
+						<img src="imgh05.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Beige with blue printed</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgh06.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Black with japanese printed</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgh07.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Black&orange Flame designs</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgh08.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Black&White tribal</h5>
+							<h5>Rs:599.00</h5>
+							<p class="text-decoration-line-through">Rs:799.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Pants -->
+			<h4 class="pt-5"><i>PANTS</i></h4>
+			<div class="row mt-0 g-5 row-cols-lg-4 row-cols-md-2 row-cols-1">
+				<div class="col">
+					<div class="card">
+						<img src="imgp01.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Ocean blue baggy</h5>
+							<h5>899.00</h5>
+							<p class="text-decoration-line-through">1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgp02.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Space grey baggy</h5>
+							<h5>899.00</h5>
+							<p class="text-decoration-line-through">1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgp03.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Milk White Baggy</h5>
+							<h5>899.00</h5>
+							<p class="text-decoration-line-through">1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgp04.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Sandal Brown Baggy</h5>
+							<h5>899.00</h5>
+							<p class="text-decoration-line-through">1199.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-0 g-5 row-cols-lg-4 row-cols-md-2 row-cols-1">
+				<div class="col">
+					<div class="card">
+						<img src="imgfp01.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Blue Formals pant</h5>
+							<h5>699.00</h5>
+							<p class="text-decoration-line-through">999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgfp02.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">beige Formal pant</h5>
+							<h5>699.00</h5>
+							<p class="text-decoration-line-through">999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgfp03.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Brown Formal Pant</h5>
+							<h5>699.00</h5>
+							<p class="text-decoration-line-through">999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img src="imgfp04.png" class="card-img-top">
+						<div class="card-body text-center mb-3">
+							<h5 class="card-title">Black Formal Pant</h5>
+							<h5>699.00</h5>
+							<p class="text-decoration-line-through">999.00</p>
+							<a href="#" class="btn bg-success">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contact -->
+    <section id="contact" style="height: 650px;">
+        <div class="container box">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 ">
+                <div class="col">
+                    <img src="contact img.png" width="" class="image-fluid" >
+                </div>
+        <div class="col contacts">
+                <h1>CONTACT US</h1>
+                    <form class="">
+                            <input type="text"  class="form-control" placeholder="Enter Your Name">
+                            <input type="email"  class="form-control" placeholder="Enter Your Email">
+                            <textarea class="form-control" placeholder="Enter Your Message"></textarea>
+                            <button class="btn bg-success">Send Message</button>
+                    </form>
+        </div>
+            </div>
+        </div>
+    </section>
+	
+	<footer class="bg-dark text-white text-center">Copyrights @SAARATH 2025</footer>
+	
+
+
+
+
+    <script src="javascript.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<div class="input-group m-4">
+	<input type="search" class="form-control" placeholder="Search..." required>
+	<button class="btn signin bg-danger-subtle text-dark">Search</button>
+</div>
+
+<button type="button" class="btn bg-danger-subtle text-dark rounded-pill p-2 my-lg-0 my-2" data-bs-toggle="modal"
+	data-bs-target="#exampleModal">Sign In</button>

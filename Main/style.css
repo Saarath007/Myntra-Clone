@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar1{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 75px;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.413);
+    background: white;
+}
+
+.trend1 img{
+    width: 150px;
+    
+}
+.navbar a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    color:lightpink!important;
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid orangered;
+}
+
+/* oferr */
+#offer img{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 150px;
+    
+}
+@media screen and (max-width: 768px) {
+    #offer img{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    }
+    
+}
+
+.headline h1{
+    margin: 30PX 50PX;
+    letter-spacing: 2px;
+    font-size: 30px;
+    width: 50%;
+    opacity: 0.8;
+    
+}
+
+/* banner */
+.banner{
+    margin-top: 20px;
+}
+.banner-content img{
+    width: 100%;
+    margin: 5px;
+}
+.banner2{
+    margin-top: 20px;
+}
+.banner2-content img{
+    width:100%;
+    margin: 5px;
+}
+.headline2 h1{
+    margin: 30PX 50PX;
+    letter-spacing: 2px;
+    font-size: 30px;
+    width: 50%;
+    opacity: 0.8;
+    
+}
+
+/* footer */
+.footer{
+    margin-top: 20px;
+}
+.footer-content img{
+    width: 100%;
+    height: 500px;
+    margin: 5px;
+}
+
+.nav-item {
+    position: relative;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    padding: 20px;
+    z-index: 100;
+}
+
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+/* products */
+
+#products{
+    background:#e5e5e5;
+}
+
+#products h4{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    /* font-family:'Asimovian',sans-serif; */
+    text-shadow: 0px 0px 0px rgb(249, 248, 164);
+    text-align: center;
+    color: lightslategray;
+}
+.shirtline h4{
+    padding: 20px;
+}
+#products img{
+    width: 250px;
+    height: 280px;
+}
+.card{
+    width: 250px;
+    height: 455px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+                border-radius:20px !important;   
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 80px ;
+    transition: all .2s ease !important ; 
+    
+}
+
+.card:hover{
+        box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                    inset -4px -4px 10px white;
+                    /* transition: .2s ease !important; */
+}
+/* pants */
+.card-img-top img{
+    transition: 0.35s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.15);
+}
+.input-group{
+    width: 55%;
+    height: 45px;
+    /* padding-right:14%; */
+}
+@media screen and (max-width: 768) {
+    .input-group{
+    width: 90%;
+    height: 45px;
+}
+}
+
+/* contact */
+
+#contact textarea{
+        margin: 10px 0px;
+}
+#contact input{
+        margin: 10px 0px;
+}
+.contacts{
+    margin-bottom:50px;
+    margin-top: 30px;
+    padding-bottom:100px;
+}
+#contact{
+    background-color: lightpink;
+}
+.contact-image img{
+    margin-top: 10px;
+    width: 100%;
+}

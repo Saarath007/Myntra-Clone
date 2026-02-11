@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+       
+        <nav class="navbar navbar-expand-lg navbar-dark  " id="navbar1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="text-white trend1"><img src="./src/Assets/myntra logo.png"></a>
+                <button class="navbar-toggler bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./men.html">MEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./women.html">WOMEN</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu bg-white">
+                                <li><a class="dropdown-item" href="./kurtas.html">Kurta sets</a></li>
+                                <li><a class="dropdown-item" href="./saree.html">Saree</a></li>
+                                <li><a class="dropdown-item" href="./western.html">western Dress</a></li>
+                            </ul>
+                        </li>
+        
+                    </ul>
+                    <div class="input-group m-4">
+	<input type="search" class="form-control" placeholder="Search..." required>
+	<button class="btn signin bg-danger-subtle text-dark">Search</button>
+</div>
+
+</div>
+<button type="button" class="btn bg-danger-subtle text-dark rounded-pill p-2 my-lg-0 my-2" data-bs-toggle="modal"
+	data-bs-target="#exampleModal">Sign In</button>
+        </nav>
+
+         <!-- model -->
+
+        <form action="">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-dark " id="exampleModalLabel">Login Page</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body bg-danger-subtle">
+        
+                            <input type="text" class="form-control" placeholder="Enter Your Name" required><br>
+                            <input type="email" class="form-control" placeholder="Email address" required><br>
+                            <input type="password" class="form-control" placeholder="Password" required><br>
+                            <input type="text" class="form-control" placeholder="Location" required><br>
+        
+                        </div>
+                        <div class="modal-footer ">
+                            <button type="button" class="btn bg-danger-subtle text-dark" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-danger-subtle text-dark" aria-required="true">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+        <!-- offer -->
+        <div class="container-fluid" id="offer">
+            <div class="container-fluid">
+                <img src="./src/Assets/offer_img.png" alt="offers">
+            </div>
+        </div>
+        
+        <!-- caroursel -->
+        
+        <section id="slide">
+            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./src/Assets/W1.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./src/Assets/W2.png" class="d-block w-100 ">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./src/Assets/W3.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./src/Assets/W4.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./src/Assets/W5.png" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark text-" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <div class="headline">
+            <h1> <strong>Kurties For Women </strong></h1>
+        </div>
+        
+        <section id="products">
+            <div class="container-fluid me-5">
+                <!-- <h2 class="text-center ">Products</h2> -->
+                <div class="container shirtline">
+                    <h4 class=""><i>KURTAS</i></h4>
+                </div>
+                <div class="row  mb-5 mt-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2  row-cols-1">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/image/Kurta_sets_1.jpeg" class="card-img-top">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">Light Orange</h5>
+                                <h5>Rs:799.00</h5>
+                                <p class="text-decoration-line-through">Rs:1199.00</p>
+                                <a href="#" class="btn bg-success">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/image/K_2.jpeg" class="card-img-top">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">Lemon Yellow</h5>
+                                <h5>Rs:799.00</h5>
+                                <p class="text-decoration-line-through">Rs:1199.00</p>
+                                <a href="#" class="btn bg-success">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/image/K_3.jpeg" class="card-img-top">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">White & Blue</h5>
+                                <h5>Rs:799.00</h5>
+                                <p class="text-decoration-line-through">Rs:1199.00</p>
+                                <a href="#" class="btn bg-success">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/image/K_4.jpeg" class="card-img-top">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">shade Balck</h5>
+                                <h5>Rs:799.00</h5>
+                                <p class="text-decoration-line-through">Rs:1199.00</p>
+                                <a href="#" class="btn bg-success">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/image/K_5.jpeg" class="card-img-top">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">dark Green</h5>
+                                <h5>Rs:799.00</h5>
+                                <p class="text-decoration-line-through">Rs:1199.00</p>
+                                <a href="#" class="btn bg-success">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/image/K_6.jpeg" class="card-img-top">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">Yellow & Green</h5>
+                                <h5>Rs:799.00</h5>
+                                <p class="text-decoration-line-through">Rs:1199.00</p>
+                                <a href="#" class="btn bg-success">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+        
+            </div>
+        </section>
+
+
+    <div class="headline2">
+        <h1><strong>Categories To Bag</strong></h1>
+    </div>
+
+
+    <div class="container">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
+            <div class="col">
+                <a href="./saree.html">
+                    <img src="./src/Assets/CAsaree.png" alt="Category 1" class="img-fluid">
+                </a>
+            </div>
+            <div class="col">
+                <a href="./kurtas.html">
+                    <img src="./src/Assets/CAk.png" alt="Category 2" class="img-fluid">
+                </a>
+    
+            </div>
+            <div class="col">
+                <a href="./western.html">
+                    <img src="./src/Assets/CAw.png" alt="Category 3" class="img-fluid">
+                </a>
+    
+            </div>
+        
+        </div>
+    
+    </div>
+
+<footer>
+    <div class="footer container-fluid">
+        <div class="footer-content container-fluid">
+            <img src="./src/Assets/footer.png" alt="footer">
+        </div>
+    </div>
+</footer>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
